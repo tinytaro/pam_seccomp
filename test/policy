@@ -1,0 +1,7 @@
+POLICY sample {
+	KILL {
+		ptrace
+	}
+}
+
+USE sample DEFAULT ALLOW
