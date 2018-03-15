@@ -3,8 +3,8 @@ It uses [Kafel](http://google.github.io/kafel) to describe policies, and compile
 
 # Build
 ```
-$ cd pam_seccomp
 $ sudo apt install build-essential bison flex
+$ cd pam_seccomp
 $ make
 ```
 
