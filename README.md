@@ -1,10 +1,11 @@
 The pam_seccomp PAM module can set up seccomp syscall filter for a session. 
-It uses Kafel[http://google.github.io/kafel] to describe policies, and compiled into BPF code that can be used by seccomp filter.
+It uses [Kafel](http://google.github.io/kafel) to describe policies, and compiled into BPF code that can be used by seccomp filter.
 
 # Build
 ```
-sudo apt install build-essential bison flex
-make
+$ cd pam_seccomp
+$ sudo apt install build-essential bison flex
+$ make
 ```
 
 # Usage
